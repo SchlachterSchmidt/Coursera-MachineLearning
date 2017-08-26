@@ -1,0 +1,19 @@
+# gitignore for coursera ML assignments
+# excluding any assignment instructions notes and unrealted content
+
+matlabTestFiles/*.m
+matlabTestFiles/*.mat
+matlabTestFiles/*.txt
+matlabTestFiles/*.dat
+matlabTestFiles/.DS_Store
+
+
+# adding adocument types
+**/*.txt
+**/*.doc*
+**/*.pdf
+**/.DS_Store
+
+**/lib/**
+**/submit.m
+**/token.mat
